@@ -1,0 +1,30 @@
+.light-button {
+    background-color: white;    
+    text-align: center;
+    border: 20px;
+    color: #1a1717;
+    font-size: 15px;
+    padding: 10px;
+    max-height: 40px;
+    max-width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #7289DA;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.btn-blue:hover {
+    transition-delay: 0.5s;
+    opacity: 0.7;
+}
+
+.dark-btn {
+    background-color: #1a1717;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}

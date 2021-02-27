@@ -1,0 +1,233 @@
+body, header, footer, .main-header , #application, .main-footer, .footer-link, .end-footer {
+    max-width: 100% !important;
+}
+.main-header {
+    background-color: #1a1717;
+    height: 100vh;
+    padding: 0 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-navabr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.discord-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.discord-logo i {
+    font-size: 25px;
+    margin-right: 0;
+    padding: 5px;
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-login {
+    display: flex;
+    padding-top: 5px;
+}
+.main-navigation li {
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* case styling */
+.nav-case {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.nav-case-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding-top: 5px;
+    margin-top: 20px;
+    width: 300px;
+}
+.nav-case-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.nav-case-image img {
+    height: 200px;
+    margin-left: 0;
+}
+.nav-case-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-case-button {
+    display: flex;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.nav-case-button p {
+    padding: 0 0;
+}
+.nav-case-button p {
+    font-size: 0;
+}
+
+/* main application */
+.app-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.app-box img {
+    height: 100px;
+}
+.app-box h2 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.ios-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    margin-left: 0;    
+    margin: 10px 0;
+}
+.android-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    margin-right: 0;   
+    margin: 0 0; 
+}
+
+.windows-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    margin: 10px 0;
+}
+.text-center h2 {
+    padding: 20px;
+}
+#application {
+    padding: 10px;
+}
+
+/* footer styling */
+.main-footer .end-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    padding-top: 10px;
+}
+
+
+.footer-link .footer-logo li i {
+    display: inline-block;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link ul {
+    padding: 0;
+    font-size: 20px;
+}
+
+.footer-link ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-link ul h3 {
+    font-size: 20px;
+    color: #7289DA;
+}
+.footer-logo ul{
+    text-align: center;
+    margin-right: 0;
+}
+
+.footer-logo ul li{
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+.footer-logo h2 {
+    padding-top: 7px;
+    color: #7289DA;
+}
+
+.footer-logo i {
+    font-size: 10px;
+    color: white;
+}
+
+.footer-link ul li {
+    padding: 5px;
+}
+
+.footer-logo {
+    padding: 0;
+    margin-left: 0;
+}
+
+.footer-section-one {
+    display: flex;
+}
+
+.end-footer .discord-logo h1, .end-footer .discord-logo i{
+    font-size: 25px;
+}
+
+.end-footer {
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}

@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main-header {
+    background-color: #1a1717;
+    height: 100vh;
+    padding: 20px 80px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-navabr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discord-logo {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.discord-logo i {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.main-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-navigation ul{
+    display: flex;
+}
+
+.main-navigation li {
+    padding: 20px;
+    font-size: 17px;
+}
+
+.main-navigation li:hover {
+    text-decoration: underline;
+}
+
+/* case header */
+.nav-case {
+    display: flex;
+    margin-top: 50px;
+}
+
+.nav-case-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
+.nav-case-image img {
+    display: flex;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.nav-case-button {
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-case-button p {
+    padding: 0 20px;
+}
+
+.nav-case-button p {
+    font-size: 20px;
+}
+
+/* main application */
+.app-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.app-box img {
+    height: 400px;
+}
+
+.app-box h2 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.ios-app {
+    align-items: flex-start;
+    padding: 0 50px;
+    margin-left: 100px;    
+}
+
+.android-app {
+    align-items: flex-end;
+    padding: 0 50px;
+    margin-right: 100px;    
+}
+
+.windows-app {
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.text-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center h2 {
+    padding: 20px;
+}
+
+#application {
+    padding: 20px;
+}
+
+/* footer styling */
+
+.main-footer {
+    background-color: #1a1717;
+    color: white;
+}
+
+.main-footer .end-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+
+.footer-link .footer-logo li i {
+    display: inline-block;
+}
+
+.footer-link ul {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.footer-link ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-link ul h3 {
+    font-size: 25px;
+    color: #7289DA;
+}
+
+.footer-logo ul{
+    padding: 10px;
+}
+
+.footer-logo ul li{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.footer-logo h2 {
+    color: #7289DA;
+}
+
+.footer-logo i {
+    color: white;
+}
+
+.footer-link ul li {
+    padding: 5px;
+}
+
+.footer-logo {
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.footer-section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-footer {
+    padding: 20px;
+}
+
+.footer-row {
+    display: flex;
+}
+
+
